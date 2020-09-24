@@ -267,7 +267,7 @@ describe('LinkedList', () => {
             it('Should return node at index specified when get is called', () => {
                 linkedList.addToTail('A');
                 linkedList.addToTail('B');
-                linkedList.addToTail('C');
+                // linkedList.addToTail('C');
                 expect(linkedList.get(1)).to.eql({ value: 'B', next: { value: 'C', next: null } });
             });
         });
